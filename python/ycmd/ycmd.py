@@ -9,6 +9,7 @@ class CMD():
         self.var['true'] = ClassData(True)
         self.var['false'] = ClassData(False)
         self.var['space'] = ClassData(" ")
+        self.var['conma'] = ClassData(",")
     async def cmdrun_file(self,path):
         with open(path) as f:
             tempInside = f.readlines()
